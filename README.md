@@ -1,5 +1,5 @@
-# DDWSH
-If the paper is accepted, the complete code will be uploaded soon.
+# [Deep Distance Weighted Sampling Hashing for Cross-modal Retrieval](https://ieeexplore.ieee.org/document/11353914)
+This paper is accepted for publication with IEEE TMM on January 16, 2026.
 
 ## Training
 
@@ -10,3 +10,21 @@ Before training, you need to download the oringal data from [coco](https://www.k
 Pretrained model will be found in the 30 lines of [CLIP/clip/clip.py](https://github.com/openai/CLIP/blob/main/clip/clip.py). This code is based on the "ViT-B/32".
 
 You should copy ViT-B-32.pt to this dir.
+
+### Start
+
+After the dataset has been prepared, we could run the follow command to train.
+> python main.py --is-train --dataset coco --lr 0.001 --output-dim 64 --save-dir ./result/coco/64 --clip-path ./ViT-B-32.pt --batch-size 128
+
+
+## Citation
+
+@ARTICLE{11353914,
+  author={Cheng, Kun and Qin, Qibing and Zhang, Wenfeng and Huang, Lei and Nie, Jie},
+  journal={IEEE Transactions on Multimedia}, 
+  title={Deep Distance Weighted Sampling Hashing for Cross-modal Retrieval}, 
+  year={2026},
+  volume={},
+  number={},
+  pages={1-13},
+  doi={10.1109/TMM.2026.3654452}}
