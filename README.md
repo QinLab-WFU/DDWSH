@@ -18,13 +18,12 @@ After the dataset has been prepared, we could run the follow command to train.
 
 
 ## Citation
-
-@ARTICLE{11353914,
-  author={Cheng, Kun and Qin, Qibing and Zhang, Wenfeng and Huang, Lei and Nie, Jie},
-  journal={IEEE Transactions on Multimedia}, 
-  title={Deep Distance Weighted Sampling Hashing for Cross-modal Retrieval}, 
-  year={2026},
-  volume={},
-  number={},
-  pages={1-13},
-  doi={10.1109/TMM.2026.3654452}}
+@ARTICLE{11353914,  
+  author={Cheng, Kun and Qin, Qibing and Zhang, Wenfeng and Huang, Lei and Nie, Jie},  
+  journal={IEEE Transactions on Multimedia},   
+  title={Deep Distance Weighted Sampling Hashing for Cross-modal Retrieval},   
+  year={2026},  
+  volume={},  
+  number={},  
+  pages={1-13},  
+  doi={10.1109/TMM.2026.3654452}}  
